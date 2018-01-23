@@ -1,0 +1,131 @@
+@charset "UTF-8";
+html {
+  box-sizing:           border-box;
+  font-family:          Helvetica, Arial, sans-serif;
+  background:           url(star.png) repeat-x;
+}
+*, *:before, *:after {
+  box-sizing:           inherit;
+}
+header {
+  font-size:            0.85em;
+  text-align:           right;
+  margin:               0 1em 0 0;
+  line-height:          0.025em;
+}
+body {
+  line-height:          1.4;
+}
+h3 {
+  margin:               0;
+  border-bottom:        0.1em solid black;
+}
+.logo {
+  position:             absolute;
+  top:                  0;
+  left:                 0.5em;
+}
+.main-nav {
+  background-color:     black;
+  color:                white;
+  margin:               1.75em 0 0 0;
+}
+.main-nav ul {
+  list-style-type:      none;
+  padding:              0.625em;
+  margin:               0;
+}
+.main-nav li {
+  display:              inline-block;
+  margin:               0 0.8em;
+}
+.main-nav a {
+  color:                #fff;
+  text-decoration:      none;
+}
+.main-nav a:hover {
+  border-bottom:        solid #fff;
+}
+.venue {
+  max-width:            82%;
+  position:             relative;
+}
+figure {
+  margin:               0;
+  position:             relative;
+}
+figure img {
+  display:              block;
+}
+figcaption {
+  color:                black;
+  background-color:     hsla(0, 100%, 100%, 0.75);
+  font-family:          Arial;
+  font-size:            1.2em;
+  bottom:               0;
+  width:                100%;
+  overflow:             hidden;
+  position:             absolute;
+}
+#social {
+  color:                #fff;
+  background-color:     #662F9A;
+  font-family:          Arial;
+  font-size:            0.9em;
+  top:                  16em;
+  right:                0.25em;
+  position:             fixed;
+  padding:              0 1em 0 0.75em;
+}
+#social ul {
+  list-style-type:      none;
+  padding:              1em 1.75em 0 0.75em;
+  text-align:           left;
+}
+#social a {
+  color:                #fff;
+  text-decoration:      none;
+}
+#social a:hover {
+  color:                #dedede;
+}
+.week-schedule {
+  margin:               2.4em 0 0 0;
+}
+.week-schedule h2 {
+  text-align:           center;
+  margin:               0.5em;
+}
+.week-schedule a {
+  color:                black;
+  text-transform:       uppercase;
+  text-decoration:      none;
+}
+.week-schedule a:hover {
+  font-weight:          bold;
+}
+[class^="col-"]{
+  color:                black;
+  background-color:     #fff;
+  border:               0.15em solid black;
+  width:                auto;
+  height:               auto;
+  float:                left;
+}
+.col-1-7 {
+  width:                14%;
+  text-align:           center;
+}
+.footer {
+  background-color:     #dcdcdc;
+  font-family:          Arial;
+  font-size:            0.925em;
+  text-align:           center;
+  margin:               14em 0 0 0;
+  padding:              0;
+  clear:                both;
+}
+.footer a {
+  color:                black;
+  background-color:     #dcdcdc;
+}
